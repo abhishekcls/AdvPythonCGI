@@ -1,5 +1,6 @@
 def store():
     for i in range(1000000):
+        print("hi")
         yield i#generator
 
 res=store()

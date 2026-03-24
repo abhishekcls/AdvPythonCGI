@@ -7,8 +7,8 @@ for s in scores:
     print(s)
 
 print("Iterator")#LAZY
-si=iter(scores)
-print(next(si))#1
+si=iter(scores)#iterable
+print(next(si))#1 #iterator
 print(next(si))#5
 print(next(si))#7
 '''
